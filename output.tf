@@ -1,3 +1,8 @@
+output "name" {
+  value       = var.name
+  description = "Droplet name"
+}
+
 output "region" {
   value       = var.region
   description = "Digital Ocean where your droplet is running in"
