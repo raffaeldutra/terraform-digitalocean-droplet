@@ -17,3 +17,8 @@ output "image" {
   value       = var.image
   description = "Digital Ocean image to be used for your Droplet"
 }
+
+output "urn" {
+  value       = digitalocean_droplet.droplet.urn
+  description = "Digital Ocean image to be used for your Droplet"
+}
