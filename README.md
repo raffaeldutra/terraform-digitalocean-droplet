@@ -16,7 +16,7 @@ To create droplet.
 
 ```hcl
 module "droplet" {
-  source = "git@github.com:raffaeldutra/tf-do-droplet.git"
+  source = "git@github.com:raffaeldutra/terraform-digitalocean-droplet.git"
 
   name = "web-dev"
   tags = [
@@ -31,7 +31,7 @@ If you want associate Droplets a project you must use the [Module for Projects h
 
 ```hcl
 module "project" {
-  source = "git@github.com:raffaeldutra/tf-do-project.git"
+  source = "git@github.com:raffaeldutra/terraform-digitalocean-project.git"
 
   name        = "My Great Project"
   description = "Project description"
