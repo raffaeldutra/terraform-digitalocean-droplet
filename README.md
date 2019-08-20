@@ -2,7 +2,7 @@
 
 This module creates droplets at Digital Ocean.
 
-This module use the following resource below:
+This module uses the following resources below:
 
 * [Digital Ocean Project](https://www.terraform.io/docs/providers/do/r/droplet.html)
 
@@ -27,7 +27,7 @@ module "droplet" {
 }
 ```
 
-If you want associate Droplets a project you must use the [Module for Projects here](https://github.com/raffaeldutra/terraform-digitalocean-project) or, create some resource for a project, then associate those Droplets to a project.
+If you want to associate Droplets in a project, you must use the [Module for Projects here](https://github.com/raffaeldutra/terraform-digitalocean-project) or, create some resource for a project and then associate those Droplets to a project.
 
 ```hcl
 module "project" {
