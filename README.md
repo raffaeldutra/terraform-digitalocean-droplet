@@ -1,5 +1,7 @@
 # Digital Ocean Droplet Terraform Module
 
+![!](https://img.shields.io/github/status/pulls/raffaeldutra/presentation-terraform-introduction.svg)
+
 This module creates droplets at Digital Ocean.
 
 This module uses the following resources below:
